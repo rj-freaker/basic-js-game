@@ -44,7 +44,7 @@ rollBtn.addEventListener('click', ()=>{
         let n = Math.floor(Math.random()*6)+1;
     score += n;
     dice.classList.remove('hidden');
-    dice.src = `d${n}.png`;
+    dice.src = `diceImages/d${n}.png`;
     if(n === 1){
         swicthPlayer();
     }else{
